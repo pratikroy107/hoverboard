@@ -1,9 +1,9 @@
 {
-  "title": "GDG DevFest Season 2018",
+  "title": "GDG DevFest Season 2019",
   "description": "Join the commuity, learn new things!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 6, 2018",
+  "dates": "November 30, 2019",
   "partnershipProposition": "https://bit.ly/devfest18-partners",
   "share": "Share",
   "followOur": "Follow our",
@@ -94,28 +94,28 @@
     "organization": "DevFest",
     "form": "https://bit.ly/2RstTJ8",
     "contacts": [
-      "Organizer Oleh Zasadnyy, [+38 093 486 6460](tel:+380934866460), o.zasadnyy@gdg.org.ua",
-      "Organizer Sofiya Huts, [+38 093 486 1425](tel:+380934861425), s.huts@gdg.org.ua"
+      "Organizer Nuruddin Iminokhunov, [+998 99 828 02 03](tel:++998998280203), nuruddin.iminohunov@gmail.com",
+      "Organizer Azamat Majitov, [+998 99 869 66 82](tel:+998998696682), aza.majidov@gmail.como"
     ]
   },
   "aboutBlock": {
     "title": "About",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Uzbekistan brings together the world class experts in Android, Web and Cloud technologies to Tashkent for a full day of sessions, workshops and showcases.",
+        "description": "GDG DevFest Tashkent brings together the world class experts in Android, Web and Cloud technologies to Tashkent for a full day of sessions, workshops and showcases.",
         "label": "Explore featured session",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
       "howItWas": {
         "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
         "label": "See our previous events",
-        "youtubeId": "TdpbgRgz6eE"
+        "youtubeId": ""
       }
     },
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "300"
+        "number": "500"
       },
       "days": {
         "label": "Days",
@@ -187,11 +187,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#io18 highlights",
-    "description": "This year's Google I/O Extended built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "#8 highlights",
+    "description": "The first GDG DevFest built lots of excitement. Check out photos from featured talks and hands-on learning sessions",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "https://photos.app.goo.gl/T31ajEBHWHM8DUjJ7"
     }
   },
   "mapBlock": {
