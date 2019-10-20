@@ -115,15 +115,16 @@
   <script>
     class AboutBlock extends ReduxMixin(Polymer.Element) {
       static get is() {
-        return "about-block";
+        return 'about-block'; // prettier-ignore
       }
 
       _playVideo() {
+        // prettier-ignore
         uiActions.toggleVideoDialog({
-          title: "{$  aboutBlock.callToAction.howItWas.title $}",
-          youtubeId: "{$  aboutBlock.callToAction.howItWas.youtubeId $}",
+          title: '{$  aboutBlock.callToAction.howItWas.title $}', // prettier-ignore
+          youtubeId: '{$  aboutBlock.callToAction.howItWas.youtubeId $}', // prettier-ignore
           disableControls: true,
-          opened: true
+          opened: true,
         });
       }
     }
