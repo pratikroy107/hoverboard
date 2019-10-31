@@ -4,7 +4,7 @@
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "November 30, 2019",
-  "partnershipProposition": "https://bit.ly/devfest18-partners",
+  "partnershipProposition": "https://drive.google.com/file/d/1UIGwKBWZcBZsqfdTpITBuhU54VhlxwDJ/view?usp=sharing",
   "share": "Share",
   "followOur": "Follow our",
   "followUs": "Follow us",
@@ -62,12 +62,12 @@
       "links": [
         {
           "name": "Partnership Proposition",
-          "url": "/",
+          "url": "https://drive.google.com/file/d/1UIGwKBWZcBZsqfdTpITBuhU54VhlxwDJ/view?usp=sharing",
           "newTab": true
         },
         {
           "name": "Info Partnership Proposition",
-          "url": "/",
+          "url": "https://drive.google.com/file/d/1UIGwKBWZcBZsqfdTpITBuhU54VhlxwDJ/view?usp=sharing",
           "newTab": true
         },
         {
@@ -92,7 +92,7 @@
   "codeOfConduct": "Code of Conduct",
   "codeOfConductBlock": {
     "organization": "DevFest",
-    "form": "https://bit.ly/2RstTJ8",
+    "form": "https://devfest.withgoogle.com/code-of-conduct",
     "contacts": [
       "Organizer Nuruddin Iminokhunov, [+998 99 828 02 03](tel:++998998280203), nuruddin.iminohunov@gmail.com",
       "Organizer Azamat Majitov, [+998 99 869 66 82](tel:+998998696682), aza.majidov@gmail.como"
@@ -104,10 +104,10 @@
       "featuredSessions": {
         "description": "GDG DevFest Tashkent brings together the world class experts in Android, Web and Cloud technologies to Tashkent for a full day of sessions, workshops and showcases.",
         "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "link": ""
       },
       "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
+        "description": "Bringing DevFest for the second time to Uzbekistan, our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
         "label": "See our previous events",
         "youtubeId": ""
       }
@@ -115,7 +115,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "500"
+        "number": "800"
       },
       "days": {
         "label": "Days",
