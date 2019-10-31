@@ -1,32 +1,20 @@
-<link rel="import" href="../../bower_components/polymer/polymer-element.html" />
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
 
-<link rel="import" href="../../bower_components/app-route/app-route.html" />
-<link
-  rel="import"
-  href="../../bower_components/plastic-image/plastic-image.html"
-/>
-<link
-  rel="import"
-  href="../../bower_components/paper-icon-button/paper-icon-button.html"
-/>
-<link rel="import" href="../../bower_components/iron-icon/iron-icon.html" />
-<link
-  rel="import"
-  href="../../bower_components/iron-location/iron-location.html"
-/>
-<link
-  rel="import"
-  href="../../bower_components/paper-progress/paper-progress.html"
-/>
+<link rel="import" href="../../bower_components/app-route/app-route.html">
+<link rel="import" href="../../bower_components/plastic-image/plastic-image.html">
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/iron-location/iron-location.html">
+<link rel="import" href="../../bower_components/paper-progress/paper-progress.html">
 
-<link rel="import" href="../mixins/utils-functions.html" />
-<link rel="import" href="../mixins/redux-mixin.html" />
-<link rel="import" href="../mixins/speakers-hoc.html" />
-<link rel="import" href="../elements/text-truncate.html" />
-<link rel="import" href="../elements/shared-styles.html" />
-<link rel="import" href="../elements/content-loader.html" />
-<link rel="import" href="../elements/previous-speakers-block.html" />
-<link rel="import" href="../elements/filter-menu.html" />
+<link rel="import" href="../mixins/utils-functions.html">
+<link rel="import" href="../mixins/redux-mixin.html">
+<link rel="import" href="../mixins/speakers-hoc.html">
+<link rel="import" href="../elements/text-truncate.html">
+<link rel="import" href="../elements/shared-styles.html">
+<link rel="import" href="../elements/content-loader.html">
+<link rel="import" href="../elements/previous-speakers-block.html">
+<link rel="import" href="../elements/filter-menu.html">
 
 <dom-module id="speakers-page">
   <template>
@@ -138,7 +126,7 @@
           padding: 6px;
           width: 32px;
           height: 32px;
-        }
+        };
         color: var(--secondary-text-color);
       }
 
@@ -165,6 +153,7 @@
           grid-template-columns: repeat(4, 1fr);
         }
       }
+
     </style>
 
     <polymer-helmet
@@ -173,12 +162,12 @@
       active="[[_setHelmetData(active, isSpeakerDialogOpened, isSessionDialogOpened)]]"
     ></polymer-helmet>
 
-    <iron-location query="{{ queryParams }}"></iron-location>
+    <iron-location query="{{queryParams}}"></iron-location>
 
     <app-route
       route="[[route]]"
       pattern="/:speakerId"
-      data="{{ routeData }}"
+      data="{{routeData}}"
     ></app-route>
 
     <hero-block
@@ -187,16 +176,11 @@
       font-color="{$ heroSettings.speakers.fontColor $}"
       active="[[active]]"
     >
-      <div class="hero-title highlight-font">
-        {$ heroSettings.speakers.title $}
-      </div>
+      <div class="hero-title highlight-font">{$ heroSettings.speakers.title $}</div>
       <p class="hero-description">{$ heroSettings.speakers.description $}</p>
     </hero-block>
 
-    <paper-progress
-      indeterminate
-      hidden$="[[contentLoaderVisibility]]"
-    ></paper-progress>
+    <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>
 
     <filter-menu
       filters="[[_filters]]"
@@ -218,23 +202,23 @@
     ></content-loader>
 
     <div class="container">
-      <template is="dom-repeat" items="[[speakersToRender]]" as="speaker">
-        <a
-          class="speaker card"
-          href$="[[speaker.link]]"
-          ga-on="click"
-          ga-event-category="speaker"
-          ga-event-action="open details"
-          ga-event-label$="[[speaker.name]]"
-        >
+      <template
+        is="dom-repeat"
+        items="[[speakersToRender]]"
+        as="speaker"
+      >
+        <a class="speaker card"
+           href$="[[speaker.link]]"
+           ga-on="click"
+           ga-event-category="speaker"
+           ga-event-action="open details"
+           ga-event-label$="[[speaker.name]]">
           <div relative>
             <plastic-image
               class="photo"
               srcset="[[speaker.photoUrl]]"
               sizing="cover"
-              lazy-load
-              preload
-              fade
+              lazy-load preload fade
             ></plastic-image>
             <div class="badges" layout horizontal>
               <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
@@ -244,14 +228,9 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   title$="[[badge.description]]"
-                  layout
-                  horizontal
-                  center-center
+                  layout horizontal center-center
                 >
-                  <iron-icon
-                    class="badge-icon"
-                    icon="hoverboard:[[badge.name]]"
-                  ></iron-icon>
+                  <iron-icon class="badge-icon" icon="hoverboard:[[badge.name]]"></iron-icon>
                 </a>
               </template>
             </div>
@@ -261,9 +240,7 @@
             class="company-logo"
             srcset="[[speaker.companyLogoUrl]]"
             sizing="contain"
-            lazy-load
-            preload
-            fade
+            lazy-load preload fade
           ></plastic-image>
 
           <div class="description">
@@ -277,30 +254,27 @@
 
           <div class="contacts">
             <template is="dom-repeat" items="[[speaker.socials]]" as="social">
-              <a
-                href$="[[social.link]]"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href$="[[social.link]]" target="_blank" rel="noopener noreferrer">
                 <paper-icon-button
                   class="social-icon"
-                  icon="hoverboard:{{ social.icon }}"
+                  icon="hoverboard:{{social.icon}}"
                 ></paper-icon-button>
               </a>
             </template>
           </div>
+
         </a>
       </template>
     </div>
 
     <footer-block></footer-block>
+
   </template>
 
   <script>
+
     // eslint-disable-next-line no-undef
-    class SpeakersPage extends UtilsFunctions(
-      ReduxMixin(SpeakersHoC(Polymer.Element)),
-    ) {
+    class SpeakersPage extends UtilsFunctions(ReduxMixin(SpeakersHoC(Polymer.Element))) {
       static get is() {
         return 'speakers-page';
       }
@@ -346,16 +320,11 @@
       _speakersChanged(speakers, selectedFilters) {
         if (this.speakers && this.speakers.length) {
           this.contentLoaderVisibility = 'hidden';
-          const filters =
-            selectedFilters && selectedFilters.tag ? selectedFilters.tag : [];
-          const updatedSpeakers = this._filterItems(speakers, filters).map(
-            speaker =>
-              Object.assign({}, speaker, {
-                link: `/speakers/${speaker.id}${
-                  this.queryParams ? `?${this.queryParams}` : ''
-                }`,
-              }),
-          );
+          const filters = selectedFilters && selectedFilters.tag ? selectedFilters.tag : [];
+          const updatedSpeakers = this._filterItems(speakers, filters)
+              .map((speaker) => Object.assign({}, speaker, {
+                link: `/speakers/${speaker.id}${this.queryParams ? `?${this.queryParams}` : ''}`,
+              }));
           this.set('speakersToRender', updatedSpeakers);
         }
       }
@@ -365,13 +334,10 @@
           requestAnimationFrame(() => {
             if (active && id) {
               const speakerData = speakersMap[id];
-              speakerData &&
-                dialogsActions.openDialog(DIALOGS.SPEAKER, speakerData);
+              speakerData && dialogsActions.openDialog(DIALOGS.SPEAKER, speakerData);
             } else {
-              this.isSpeakerDialogOpened &&
-                dialogsActions.closeDialog(DIALOGS.SPEAKER);
-              this.isSessionDialogOpened &&
-                dialogsActions.closeDialog(DIALOGS.SESSION);
+              this.isSpeakerDialogOpened && dialogsActions.closeDialog(DIALOGS.SPEAKER);
+              this.isSessionDialogOpened && dialogsActions.closeDialog(DIALOGS.SESSION);
             }
           });
         }
@@ -382,13 +348,11 @@
       }
 
       _onFiltersLoad(filters) {
-        this.set('_filters', [
-          {
-            title: '{$ filters.tags $}',
-            key: 'tag',
-            items: filters.tags,
-          },
-        ]);
+        this.set('_filters', [{
+          title: '{$ filters.tags $}',
+          key: 'tag',
+          items: filters.tags,
+        }]);
       }
 
       _paramsUpdated(queryParams) {
@@ -396,18 +360,17 @@
       }
 
       _filterItems(speakers, selectedFilters) {
-        return speakers.filter(speaker => {
+        return speakers.filter((speaker) => {
           if (!selectedFilters || !selectedFilters.length) return true;
-          return (
-            speaker.tags &&
-            !!speaker.tags.filter(tag =>
-              selectedFilters.includes(this.generateClassName(tag)),
-            ).length
-          );
+          return speaker.tags
+            && !!speaker.tags.filter((tag) =>
+              selectedFilters.includes(this.generateClassName(tag))).length;
         });
       }
     }
 
     window.customElements.define(SpeakersPage.is, SpeakersPage);
+
   </script>
 </dom-module>
+
