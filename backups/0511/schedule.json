@@ -1,0 +1,313 @@
+{
+  "2016-09-09": {
+    "dateReadable": "November 30",
+    "timeslots": [
+      {
+        "endTime": "09:30",
+        "startTime": "08:30",
+        "sessions": [
+          {
+            "items": [132]
+          }
+        ]
+      },
+      {
+        "endTime": "09:40",
+        "startTime": "09:30",
+        "sessions": [
+          {
+            "items": []
+          },
+          {
+            "items": [136]
+          }
+        ]
+      },
+      {
+        "startTime": "09:40",
+        "sessions": [
+          {
+            "items": []
+          },
+          {
+            "items": [139]
+          }
+        ],
+        "endTime": "09:50"
+      },
+      {
+        "endTime": "10:00",
+        "startTime": "09:50",
+        "sessions": [
+          {
+            "items": []
+          },
+          {
+            "items": [115]
+          }
+        ]
+      },
+      {
+        "endTime": "10:20",
+        "startTime": "10:00",
+        "sessions": [
+          {
+            "items": []
+          },
+          {
+            "items": [111]
+          }
+        ]
+      },
+      {
+        "endTime": "10:40",
+        "startTime": "10:20",
+        "sessions": [
+          {
+            "items": []
+          },
+          {
+            "items": [112]
+          }
+        ]
+      },
+      {
+        "endTime": "11:00",
+        "startTime": "10:40",
+        "sessions": [
+          {
+            "items": []
+          },
+          {
+            "items": [118]
+          }
+        ]
+      },
+      {
+        "sessions": [
+          {
+            "items": []
+          },
+          {
+            "items": [126]
+          }
+        ],
+        "endTime": "11:20",
+        "startTime": "11:00"
+      },
+      {
+        "endTime": "11:40",
+        "startTime": "11:20",
+        "sessions": [
+          {
+            "items": [134]
+          }
+        ]
+      },
+      {
+        "startTime": "11:40",
+        "sessions": [
+          {
+            "items": [105]
+          },
+          {
+            "items": [127]
+          },
+          {
+            "items": [119],
+            "extend": 3
+          }
+        ],
+        "endTime": "12:00"
+      },
+      {
+        "startTime": "12:00",
+        "sessions": [
+          {
+            "items": [112]
+          },
+          {
+            "items": [111]
+          }
+        ],
+        "endTime": "12:20"
+      },
+      {
+        "endTime": "12:40",
+        "startTime": "12:20",
+        "sessions": [
+          {
+            "items": [106]
+          },
+          {
+            "items": [125]
+          }
+        ]
+      },
+      {
+        "endTime": "13:00",
+        "startTime": "12:40",
+        "sessions": [
+          {
+            "items": [137]
+          }
+        ]
+      }
+    ],
+    "date": "2019-11-30",
+    "tracks": [
+      {
+        "title": "the Entrance hall of Building B "
+      },
+      {
+        "title": "3rd floor, Conference Hall - B304"
+      },
+      {
+        "title": "Workshops hall"
+      }
+    ]
+  },
+  "2016-09-10": {
+    "tracks": [
+      {
+        "title": "Expo hall"
+      },
+      {
+        "title": "Conference hall"
+      },
+      {
+        "title": "Workshops hall"
+      }
+    ],
+    "dateReadable": "September 10",
+    "timeslots": [
+      {
+        "sessions": [
+          {
+            "items": [135]
+          }
+        ],
+        "endTime": "10:10",
+        "startTime": "09:30"
+      },
+      {
+        "startTime": "10:10",
+        "sessions": [
+          {
+            "items": [114]
+          },
+          {
+            "items": [117]
+          },
+          {
+            "items": [121]
+          }
+        ],
+        "endTime": "10:50"
+      },
+      {
+        "endTime": "11:40",
+        "startTime": "11:00",
+        "sessions": [
+          {
+            "items": [122]
+          },
+          {
+            "items": [113]
+          },
+          {
+            "items": [121],
+            "extend": 2
+          }
+        ]
+      },
+      {
+        "sessions": [
+          {
+            "items": [104]
+          },
+          {
+            "items": [124]
+          }
+        ],
+        "endTime": "12:30",
+        "startTime": "11:50"
+      },
+      {
+        "sessions": [
+          {
+            "items": [133]
+          }
+        ],
+        "endTime": "14:00",
+        "startTime": "12:30"
+      },
+      {
+        "startTime": "14:00",
+        "sessions": [
+          {
+            "items": [108]
+          },
+          {
+            "items": [128]
+          },
+          {
+            "items": [102],
+            "extend": 2
+          }
+        ],
+        "endTime": "14:40"
+      },
+      {
+        "sessions": [
+          {
+            "items": [110]
+          },
+          {
+            "items": [123]
+          }
+        ],
+        "endTime": "15:30",
+        "startTime": "14:50"
+      },
+      {
+        "startTime": "15:30",
+        "sessions": [
+          {
+            "items": [134]
+          }
+        ],
+        "endTime": "16:00"
+      },
+      {
+        "endTime": "16:40",
+        "startTime": "16:00",
+        "sessions": [
+          {
+            "items": [131]
+          },
+          {
+            "items": [140]
+          },
+          {
+            "items": [130],
+            "extend": 2
+          }
+        ]
+      },
+      {
+        "sessions": [
+          {
+            "items": [115]
+          },
+          {
+            "items": [140]
+          }
+        ],
+        "endTime": "17:30",
+        "startTime": "16:50"
+      }
+    ],
+    "date": "2016-09-10"
+  }
+}
